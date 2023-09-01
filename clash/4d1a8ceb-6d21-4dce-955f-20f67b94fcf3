@@ -75,32 +75,6 @@ proxies:
   - {name: TG@mfbpn-Lv.1-US-HE.01 - 18348, server: cdn-cn.nekocloud.cn, port: 19060, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 274332:kSag93, obfs-param: 19918274332.wns.windows.com, udp: true}
   - {name: TG@mfbpn-Lv.1-US-HE.02 - 18348, server: cdn-cn.nekocloud.cn, port: 19068, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 274332:kSag93, obfs-param: 19918274332.wns.windows.com, udp: true}
   - {name: TG@mfbpn-Lv.1-US-Linode - 18348, server: cdn-cn.nekocloud.cn, port: 18995, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 274332:kSag93, obfs-param: 19918274332.wns.windows.com, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-AU-Sydney.01, server: cdn-cn.nekocloud.cn, port: 19049, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-AU-Sydney.02, server: cdn-cn.nekocloud.cn, port: 19097, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]", server: us.he.01.nekocloud.cn, port: 19043, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.01.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-HK-HGC[海外直连]", server: hk.ntt.01.nekocloud.cn, port: 19083, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: hk.ntt.01.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]", server: hk.hkbn.01.nekocloud.cn, port: 19085, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: hk.hkbn.01.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-HK-HKBN.02, server: cdn-cn.nekocloud.cn, port: 19092, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-HK-HKT.01, server: cdn-cn.nekocloud.cn, port: 19094, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-HK-HKT.02, server: cdn-cn.nekocloud.cn, port: 19040, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻, server: cdn-cn.nekocloud.cn, port: 19084, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]", server: jp.linode.01.nekocloud.cn, port: 19050, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: jp.linode.01.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]", server: jp.linode.06.nekocloud.cn, port: 10006, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: jp.linode.06.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]", server: jp.alt.01.nekocloud.cn, port: 19055, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: jp.alt.01.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-KR-Moack, server: cdn-cn.nekocloud.cn, port: 18999, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]", server: ru.01.nekocloud.cn, port: 19080, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: ru.01.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-SG-Linode[海外直连]", server: sg-linode.01.nekocloud.cn, port: 19057, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: sg-linode.01.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]", server: sg.bgp.01.nekocloud.cn, port: 19079, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: sg.bgp.01.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.01, server: cdn-cn.nekocloud.cn, port: 19046, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.02, server: cdn-cn.nekocloud.cn, port: 19047, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.03, server: cdn-cn.nekocloud.cn, port: 19048, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.04, server: cdn-cn.nekocloud.cn, port: 19038, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.05, server: cdn-cn.nekocloud.cn, port: 19045, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-UK-DigitalOcean, server: cdn-cn.nekocloud.cn, port: 10007, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-US-HE.01[海外直连]", server: us.he.07.nekocloud.cn, port: 10002, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.07.nekocloud.cn}, udp: true}
-  - {name: "TG@mfbpn-AA-V2ray-US-HE.02[海外直连]", server: us.he.04.nekocloud.cn, port: 19042, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.04.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-US-HE.03, server: cdn-cn.nekocloud.cn, port: 19029, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: TG@mfbpn-AA-V2ray-US-Philadelphia, server: cdn-cn.nekocloud.cn, port: 19016, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: TG@mfbpn-香港 01, server: newstab.bygcloud.xyz, port: 21101, type: ss, cipher: aes-128-gcm, password: 5d4b5d52-9d16-4358-bb0e-6cee9668f702, udp: true}
   - {name: TG@mfbpn-香港 02, server: newstab.bygcloud.xyz, port: 21102, type: ss, cipher: aes-128-gcm, password: 5d4b5d52-9d16-4358-bb0e-6cee9668f702, udp: true}
   - {name: TG@mfbpn-香港 03, server: newstab.bygcloud.xyz, port: 21103, type: ss, cipher: aes-128-gcm, password: 5d4b5d52-9d16-4358-bb0e-6cee9668f702, udp: true}
@@ -145,202 +119,228 @@ proxies:
   - {name: TG@mfbpn-巴西, server: newstab.bygcloud.xyz, port: 27009, type: ss, cipher: aes-128-gcm, password: 5d4b5d52-9d16-4358-bb0e-6cee9668f702, udp: true}
   - {name: TG@mfbpn-墨西哥, server: newstab.bygcloud.xyz, port: 27011, type: ss, cipher: aes-128-gcm, password: 5d4b5d52-9d16-4358-bb0e-6cee9668f702, udp: true}
   - {name: TG@mfbpn-智利, server: newstab.bygcloud.xyz, port: 27002, type: ss, cipher: aes-128-gcm, password: 5d4b5d52-9d16-4358-bb0e-6cee9668f702, udp: true}
-  - {name: TG@mfbpn-【A】香港  VIP 1 - Nearoute, server: n21.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港  VIP 3 - Nearoute, server: n23.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港  VIP 5 - Leaseweb, server: n24.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港  VIP 6 - Leaseweb, server: n28.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港  VIP 8 - Nearoute, server: n54.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 VIP 7 - Nearoute, server: n32.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 1 - Nearoute, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 A - Nearoute, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 B - Nearoute, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 C - Nearoute, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 D - Nearoute, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 E - Nearoute, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【A】香港 普通 F - Nearoute, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港  VIP C - Nearoute, server: n43.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港  VIP F - Nearoute, server: n57.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港  普通 3 - Nearoute, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 1 - Leaseweb, server: n06.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 1 - Nearoute, server: ntemp01.boom.skin, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 2 - Nearoute, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 3 - Nearoute, server: ntemp03.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 4 -  Nearoute, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 5 - Nearoute, server: ntemp05.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 6 - Nearoute, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 7 - Nearoute, server: ntemp07.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 8 - Nearoute, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【B】香港 普通 9 - Nearoute, server: ntemp09.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】日本 VIP W - Leaseweb, server: n22.boom.skin, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】日本 VIP Y - Leaseweb, server: n116.boom.skin, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】狮城  VIP 6 - 阿里云, server: n48.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】狮城  VIP 7 - DO, server: n47.boom.skin, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】狮城 VIP C - 阿里云, server: n05.boom.skin, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 VIP 1 - Netflix, server: us5.edge.boom.skin, port: 44001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 VIP 2 - Netflix, server: us6.edge.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 VIP 3 - Netflix, server: us7.edge.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 VIP 4 - CC, server: us8.edge.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 VIP 5 - CC, server: us9.edge.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 VIP 6 - CC, server: us10.edge.boom.skin, port: 49001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 普通 1 - CC, server: us1.edge.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 普通 2 - CC, server: us2.edge.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 普通 3 - CC, server: us3.edge.boom.skin, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】美国 普通 4 - CC, server: us4.edge.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【C】香港  VIP 9 - Nearoute, server: n37.boom.skin, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】俄罗斯  VIP 1 - RT, server: s102.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】俄罗斯  VIP 2 - RT, server: s103.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】俄罗斯  VIP 3 - RT, server: s104.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】俄罗斯  VIP 4 - RT, server: s105.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】台湾  VIP 1 - 中华电信, server: n04.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】台湾  VIP 2 - 云高, server: n119.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【E】台湾  VIP 3 - 中华电信, server: s100.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】土耳其 VIP 1 - Steam, server: s01.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】新加坡  VIP 1 - Linode, server: n17.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】新加坡  VIP 8 - Linode, server: n96.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】新加坡  VIP 9 - Linode, server: n30.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】新加坡  VIP A - Linode, server: n11.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】新加坡 VIP B - DO, server: n110.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【F】韩国  VIP 2 - VPC, server: n13.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港  VIP 2 - HGC, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港  VIP 3 - HGC, server: n27.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港  VIP 4 - HGC, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港  VIP 6 - HGC, server: n92.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港  VIP 8 - HGC, server: n77.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港  VIP 9 - HGC, server: n60.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港 VIP 1 - HGC, server: ntemp25.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港 VIP 5 - HGC, server: n100.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【GAME】香港 VIP 7 - HGC, server: n114.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 1 - Nearoute, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 2 - Nearoute, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 3 - Nearoute, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 4 - Nearoute, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 5 - Nearoute, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 6 - Nearoute, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【IEPL】香港 普通 7 - Nearoute, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 1 - chatGPT, server: nf1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 2 - chatGPT, server: nf2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 3 - chatGPT, server: nf3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 4 - chatGPT, server: nf4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 5 - chatGPT, server: nf5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 6 - chatGPT, server: nf6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 7 - chatGPT, server: nf7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 8 - chatGPT, server: nf8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP 9 - chatGPT, server: nf9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP A - chatGPT, server: nf10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】日本 VIP B - chatGPT, server: nf11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【I】蒙古 普通 A - MN, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 1 - Netflix, server: nj1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 2 - Netflix, server: nj2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 3 - Netflix, server: nj3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 4 - Netflix, server: nj4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 5 - Netflix, server: nj5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 6 - Netflix, server: nj6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 7 - Netflix, server: nj7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 8 - Netflix, server: nj8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP 9 - Netflix, server: nj9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP A - Netflix, server: nja.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP B - Netflix, server: njb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP C - Netflix, server: njc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP D - Netflix, server: njd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【J】香港 VIP E - Netflix, server: nje.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 1 - DO, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 2 - DO, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 3 - DO, server: nka.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 4 - DO, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 5 - DO, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 6 - DO, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【K】新加坡 普通 7 - DO, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP1 - chatGPT, server: nl1.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP2 - chatGPT, server: nl2.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP3 - chatGPT, server: nl3.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP4 - chatGPT, server: nl4.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP5 - chatGPT, server: nl5.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP6 - chatGPT, server: nl6.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP7 - chatGPT, server: nl7.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP8 - chatGPT, server: nl8.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIP9 - chatGPT, server: nl9.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】新加坡  VIPA - chatGPT, server: nla.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【L】马来西亚  VIP 1 - TMNet, server: s101.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港  VIP F - Leaseweb, server: n61.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港  VIP H - Leaseweb, server: n67.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港  VIP I - chatGPT, server: n74.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 1 - Netflix, server: nm1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 2 - Netflix, server: nm2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 3 - Netflix, server: nm3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 4 - Netflix, server: nm4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 5 - Netflix, server: nm5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 6 - Netflix, server: nm6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 7 - Netflix, server: nm7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 8 - Leaseweb, server: nm8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP 9 - Leaseweb, server: nm9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP A - Leaseweb, server: nma.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP B - Leaseweb, server: nmb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP C - Leaseweb, server: nmc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP D - chatGPT, server: nmd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP K - chatGPT, server: n93.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP T - Leaseweb, server: n111.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP X - Leaseweb, server: n115.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【M】香港 VIP Z - Leaseweb, server: n117.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 1 - Nerocloud, server: jp6.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 10 - Nerocloud, server: jp15.boom.skin, port: 39500, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 11 - Nerocloud, server: jp16.boom.skin, port: 39600, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 12 - Nerocloud, server: jp17.boom.skin, port: 39700, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 13 - Nerocloud, server: jp18.boom.skin, port: 39800, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 14 - Nerocloud, server: jp19.boom.skin, port: 39900, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 15 - Nerocloud, server: jp20.boom.skin, port: 38100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 2 - Nerocloud, server: jp7.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 3 - Nerocloud, server: jp8.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 4 - Nerocloud, server: jp9.boom.skin, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 5 - Nerocloud, server: jp10.boom.skin, port: 39000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 6 - Nerocloud, server: jp11.boom.skin, port: 39100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 7 - Nerocloud, server: jp12.boom.skin, port: 39200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 8 - Nerocloud, server: jp13.boom.skin, port: 39300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP 9 - Nerocloud, server: jp14.boom.skin, port: 39400, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP A - Leaseweb, server: nn1.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP B - Leaseweb, server: nn2.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP C - Leaseweb, server: nn3.boom.skin, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP D - Leaseweb, server: nn4.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP E - Leaseweb, server: nn5.boom.skin, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP F - Leaseweb, server: nn6.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 VIP G - Leaseweb, server: nn7.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 普通 1 - Nerocloud, server: jp1.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 普通 2 - Nerocloud, server: jp2.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 普通 3 - Nerocloud, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 普通 4 - Nerocloud, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】日本 普通 5 - Nerocloud, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 VIP 10 - Leaseweb, server: nn14.boom.skin, port: 53000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 VIP 8 - Leaseweb, server: nn12.boom.skin, port: 51000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 VIP 9 - Nearoute, server: nn13.boom.skin, port: 52000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 普通 1 - Nearoute, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 普通 2 - Nearoute, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 普通 3 - Nearoute, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【N】香港 普通 4 - Leaseweb, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 1 - Leaseweb, server: opt6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 10 - Leaseweb, server: opt15.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 11 - Leaseweb, server: opt21.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 12 - Leaseweb, server: opt22.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 13 - Leaseweb, server: opt23.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 14 - Leaseweb, server: opt24.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 15 - Leaseweb, server: opt25.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 16 - Leaseweb, server: opt26.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 2 - Leaseweb, server: opt7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 3 - Leaseweb, server: opt8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 4 - Leaseweb, server: opt9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 5 - Leaseweb, server: opt10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 6 - Leaseweb, server: opt11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 7 - Leaseweb, server: opt12.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 8 - Leaseweb, server: opt13.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 VIP 9 - Leaseweb, server: opt14.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 1 - Leaseweb, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 10 - Leaseweb, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 2 - Leaseweb, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 3 - Leaseweb, server: opt3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 4 - Leaseweb, server: opt4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 5 - Leaseweb, server: opt5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 6 - Leaseweb, server: opt16.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 7 - Leaseweb, server: opt17.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 8 - Leaseweb, server: opt18.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-【O】香港 普通 9 - Leaseweb, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 809519:Yi8TLK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港  VIP 1 - Nearoute, server: n21.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港  VIP 3 - Nearoute, server: n23.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港  VIP 5 - Leaseweb, server: n24.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港  VIP 6 - Leaseweb, server: n28.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港  VIP 8 - Nearoute, server: n54.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 VIP 7 - Nearoute, server: n32.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 1 - Nearoute, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 A - Nearoute, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 B - Nearoute, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 C - Nearoute, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 D - Nearoute, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 E - Nearoute, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【A】香港 普通 F - Nearoute, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港  VIP C - Nearoute, server: n43.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港  VIP F - Nearoute, server: n57.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港  普通 3 - Nearoute, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 1 - Leaseweb, server: n06.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 1 - Nearoute, server: ntemp01.boom.skin, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 2 - Nearoute, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 3 - Nearoute, server: ntemp03.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 4 -  Nearoute, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 5 - Nearoute, server: ntemp05.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 6 - Nearoute, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 7 - Nearoute, server: ntemp07.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 8 - Nearoute, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【B】香港 普通 9 - Nearoute, server: ntemp09.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】日本 VIP W - Leaseweb, server: n22.boom.skin, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】日本 VIP Y - Leaseweb, server: n116.boom.skin, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】狮城  VIP 6 - 阿里云, server: n48.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】狮城  VIP 7 - DO, server: n47.boom.skin, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】狮城 VIP C - 阿里云, server: n05.boom.skin, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 VIP 1 - Netflix, server: us5.edge.boom.skin, port: 44001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 VIP 2 - Netflix, server: us6.edge.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 VIP 3 - Netflix, server: us7.edge.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 VIP 4 - CC, server: us8.edge.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 VIP 5 - CC, server: us9.edge.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 VIP 6 - CC, server: us10.edge.boom.skin, port: 49001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 普通 1 - CC, server: us1.edge.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 普通 2 - CC, server: us2.edge.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 普通 3 - CC, server: us3.edge.boom.skin, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】美国 普通 4 - CC, server: us4.edge.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【C】香港  VIP 9 - Nearoute, server: n37.boom.skin, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】俄罗斯  VIP 1 - RT, server: s102.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】俄罗斯  VIP 2 - RT, server: s103.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】俄罗斯  VIP 3 - RT, server: s104.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】俄罗斯  VIP 4 - RT, server: s105.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】台湾  VIP 1 - 中华电信, server: n04.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】台湾  VIP 2 - 云高, server: n119.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【E】台湾  VIP 3 - 中华电信, server: s100.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】土耳其 VIP 1 - Steam, server: s01.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】新加坡  VIP 1 - Linode, server: n17.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】新加坡  VIP 8 - Linode, server: n96.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】新加坡  VIP 9 - Linode, server: n30.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】新加坡  VIP A - Linode, server: n11.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】新加坡 VIP B - DO, server: n110.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【F】韩国  VIP 2 - VPC, server: n13.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港  VIP 2 - HGC, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港  VIP 3 - HGC, server: n27.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港  VIP 4 - HGC, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港  VIP 6 - HGC, server: n92.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港  VIP 8 - HGC, server: n77.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港  VIP 9 - HGC, server: n60.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港 VIP 1 - HGC, server: ntemp25.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港 VIP 5 - HGC, server: n100.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【GAME】香港 VIP 7 - HGC, server: n114.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 1 - Nearoute, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 2 - Nearoute, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 3 - Nearoute, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 4 - Nearoute, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 5 - Nearoute, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 6 - Nearoute, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【IEPL】香港 普通 7 - Nearoute, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 1 - chatGPT, server: nf1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 2 - chatGPT, server: nf2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 3 - chatGPT, server: nf3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 4 - chatGPT, server: nf4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 5 - chatGPT, server: nf5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 6 - chatGPT, server: nf6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 7 - chatGPT, server: nf7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 8 - chatGPT, server: nf8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP 9 - chatGPT, server: nf9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP A - chatGPT, server: nf10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】日本 VIP B - chatGPT, server: nf11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【I】蒙古 普通 A - MN, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 1 - Netflix, server: nj1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 2 - Netflix, server: nj2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 3 - Netflix, server: nj3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 4 - Netflix, server: nj4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 5 - Netflix, server: nj5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 6 - Netflix, server: nj6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 7 - Netflix, server: nj7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 8 - Netflix, server: nj8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP 9 - Netflix, server: nj9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP A - Netflix, server: nja.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP B - Netflix, server: njb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP C - Netflix, server: njc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP D - Netflix, server: njd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【J】香港 VIP E - Netflix, server: nje.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 1 - DO, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 2 - DO, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 3 - DO, server: nka.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 4 - DO, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 5 - DO, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 6 - DO, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【K】新加坡 普通 7 - DO, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP1 - chatGPT, server: nl1.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP2 - chatGPT, server: nl2.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP3 - chatGPT, server: nl3.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP4 - chatGPT, server: nl4.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP5 - chatGPT, server: nl5.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP6 - chatGPT, server: nl6.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP7 - chatGPT, server: nl7.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP8 - chatGPT, server: nl8.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIP9 - chatGPT, server: nl9.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】新加坡  VIPA - chatGPT, server: nla.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【L】马来西亚  VIP 1 - TMNet, server: s101.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港  VIP F - Leaseweb, server: n61.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港  VIP H - Leaseweb, server: n67.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港  VIP I - chatGPT, server: n74.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 1 - Netflix, server: nm1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 2 - Netflix, server: nm2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 3 - Netflix, server: nm3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 4 - Netflix, server: nm4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 5 - Netflix, server: nm5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 6 - Netflix, server: nm6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 7 - Netflix, server: nm7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 8 - Leaseweb, server: nm8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP 9 - Leaseweb, server: nm9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP A - Leaseweb, server: nma.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP B - Leaseweb, server: nmb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP C - Leaseweb, server: nmc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP D - chatGPT, server: nmd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP K - chatGPT, server: n93.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP T - Leaseweb, server: n111.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP X - Leaseweb, server: n115.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【M】香港 VIP Z - Leaseweb, server: n117.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 1 - Nerocloud, server: jp6.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 10 - Nerocloud, server: jp15.boom.skin, port: 39500, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 11 - Nerocloud, server: jp16.boom.skin, port: 39600, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 12 - Nerocloud, server: jp17.boom.skin, port: 39700, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 13 - Nerocloud, server: jp18.boom.skin, port: 39800, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 14 - Nerocloud, server: jp19.boom.skin, port: 39900, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 15 - Nerocloud, server: jp20.boom.skin, port: 38100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 2 - Nerocloud, server: jp7.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 3 - Nerocloud, server: jp8.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 4 - Nerocloud, server: jp9.boom.skin, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 5 - Nerocloud, server: jp10.boom.skin, port: 39000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 6 - Nerocloud, server: jp11.boom.skin, port: 39100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 7 - Nerocloud, server: jp12.boom.skin, port: 39200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 8 - Nerocloud, server: jp13.boom.skin, port: 39300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP 9 - Nerocloud, server: jp14.boom.skin, port: 39400, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP A - Leaseweb, server: nn1.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP B - Leaseweb, server: nn2.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP C - Leaseweb, server: nn3.boom.skin, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP D - Leaseweb, server: nn4.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP E - Leaseweb, server: nn5.boom.skin, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP F - Leaseweb, server: nn6.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 VIP G - Leaseweb, server: nn7.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 普通 1 - Nerocloud, server: jp1.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 普通 2 - Nerocloud, server: jp2.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 普通 3 - Nerocloud, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 普通 4 - Nerocloud, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】日本 普通 5 - Nerocloud, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 VIP 10 - Leaseweb, server: nn14.boom.skin, port: 53000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 VIP 8 - Leaseweb, server: nn12.boom.skin, port: 51000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 VIP 9 - Nearoute, server: nn13.boom.skin, port: 52000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 普通 1 - Nearoute, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 普通 2 - Nearoute, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 普通 3 - Nearoute, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【N】香港 普通 4 - Leaseweb, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 1 - Leaseweb, server: opt6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 10 - Leaseweb, server: opt15.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 11 - Leaseweb, server: opt21.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 12 - Leaseweb, server: opt22.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 13 - Leaseweb, server: opt23.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 14 - Leaseweb, server: opt24.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 15 - Leaseweb, server: opt25.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 16 - Leaseweb, server: opt26.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 2 - Leaseweb, server: opt7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 3 - Leaseweb, server: opt8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 4 - Leaseweb, server: opt9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 5 - Leaseweb, server: opt10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 6 - Leaseweb, server: opt11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 7 - Leaseweb, server: opt12.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 8 - Leaseweb, server: opt13.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 VIP 9 - Leaseweb, server: opt14.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 1 - Leaseweb, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 10 - Leaseweb, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 2 - Leaseweb, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 3 - Leaseweb, server: opt3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 4 - Leaseweb, server: opt4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 5 - Leaseweb, server: opt5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 6 - Leaseweb, server: opt16.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 7 - Leaseweb, server: opt17.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 8 - Leaseweb, server: opt18.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-【O】香港 普通 9 - Leaseweb, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 594191:OF7yi3, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-AU-Sydney.01, server: tg_mfbpn_s2.52vpn.eu.org, port: 19049, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-AU-Sydney.02, server: tg_mfbpn_s2.52vpn.eu.org, port: 19097, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19043, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.01.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-HK-HGC[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19083, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: hk.ntt.01.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19085, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: hk.hkbn.01.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-HK-HKBN.02, server: tg_mfbpn_s2.52vpn.eu.org, port: 19092, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-HK-HKT.01, server: tg_mfbpn_s2.52vpn.eu.org, port: 19094, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-HK-HKT.02, server: tg_mfbpn_s2.52vpn.eu.org, port: 19040, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻, server: tg_mfbpn_s2.52vpn.eu.org, port: 19084, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19050, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: jp.linode.01.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 10006, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: jp.linode.06.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19055, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: jp.alt.01.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-KR-Moack, server: tg_mfbpn_s2.52vpn.eu.org, port: 18999, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19080, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: ru.01.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-SG-Linode[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19057, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: sg-linode.01.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19079, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: sg.bgp.01.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.01, server: tg_mfbpn_s2.52vpn.eu.org, port: 19046, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.02, server: tg_mfbpn_s2.52vpn.eu.org, port: 19047, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.03, server: tg_mfbpn_s2.52vpn.eu.org, port: 19048, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.04, server: tg_mfbpn_s2.52vpn.eu.org, port: 19038, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-TW-HiNet.05, server: tg_mfbpn_s2.52vpn.eu.org, port: 19045, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-UK-DigitalOcean, server: tg_mfbpn_s2.52vpn.eu.org, port: 10007, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-US-HE.01[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 10002, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.07.nekocloud.cn}, udp: true}
+  - {name: "TG@mfbpn-AA-V2ray-US-HE.02[海外直连]", server: tg_mfbpn_s2.52vpn.eu.org, port: 19042, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.04.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-US-HE.03, server: tg_mfbpn_s2.52vpn.eu.org, port: 19029, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: TG@mfbpn-AA-V2ray-US-Philadelphia, server: tg_mfbpn_s2.52vpn.eu.org, port: 19016, type: vmess, uuid: ff85caea-25b6-352c-bfe2-b3ddd4f81d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -417,32 +417,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -683,6 +657,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -758,32 +758,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -1024,6 +998,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1100,32 +1100,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -1366,6 +1340,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1454,32 +1454,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -1720,6 +1694,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1730,12 +1730,6 @@ proxy-groups:
       - TG@mfbpn-AA-中继-HK-HKT.02 - 18348
       - TG@mfbpn-AA-中继-HK-HKT.03 - 18348
       - TG@mfbpn-AA-中继-HK-香港寬頻HKBN - 18348
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -1856,6 +1850,12 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1932,32 +1932,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -2198,6 +2172,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: 📲 电报信息
     type: select
     proxies:
@@ -2273,32 +2273,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -2539,6 +2513,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2615,32 +2615,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -2881,6 +2855,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2966,32 +2966,6 @@ proxy-groups:
       - TG@mfbpn-Lv.1-US-HE.01 - 18348
       - TG@mfbpn-Lv.1-US-HE.02 - 18348
       - TG@mfbpn-Lv.1-US-Linode - 18348
-      - TG@mfbpn-AA-V2ray-AU-Sydney.01
-      - TG@mfbpn-AA-V2ray-AU-Sydney.02
-      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
-      - TG@mfbpn-AA-V2ray-HK-HKBN.02
-      - TG@mfbpn-AA-V2ray-HK-HKT.01
-      - TG@mfbpn-AA-V2ray-HK-HKT.02
-      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
-      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
-      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
-      - TG@mfbpn-AA-V2ray-KR-Moack
-      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
-      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
-      - TG@mfbpn-AA-V2ray-TW-HiNet.01
-      - TG@mfbpn-AA-V2ray-TW-HiNet.02
-      - TG@mfbpn-AA-V2ray-TW-HiNet.03
-      - TG@mfbpn-AA-V2ray-TW-HiNet.04
-      - TG@mfbpn-AA-V2ray-TW-HiNet.05
-      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
-      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
-      - TG@mfbpn-AA-V2ray-US-HE.03
-      - TG@mfbpn-AA-V2ray-US-Philadelphia
       - TG@mfbpn-香港 01
       - TG@mfbpn-香港 02
       - TG@mfbpn-香港 03
@@ -3232,6 +3206,32 @@ proxy-groups:
       - TG@mfbpn-【O】香港 普通 7 - Leaseweb
       - TG@mfbpn-【O】香港 普通 8 - Leaseweb
       - TG@mfbpn-【O】香港 普通 9 - Leaseweb
+      - TG@mfbpn-AA-V2ray-AU-Sydney.01
+      - TG@mfbpn-AA-V2ray-AU-Sydney.02
+      - TG@mfbpn-AA-V2ray-CA-Toronto[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HGC[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.01[海外直连]
+      - TG@mfbpn-AA-V2ray-HK-HKBN.02
+      - TG@mfbpn-AA-V2ray-HK-HKT.01
+      - TG@mfbpn-AA-V2ray-HK-HKT.02
+      - TG@mfbpn-AA-V2ray-HK-HKT入屋寬頻
+      - TG@mfbpn-AA-V2ray-JP-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.02[海外直连]
+      - TG@mfbpn-AA-V2ray-JP-NTT.03[海外直连]
+      - TG@mfbpn-AA-V2ray-KR-Moack
+      - TG@mfbpn-AA-V2ray-RU-Selectel[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-Linode[海外直连]
+      - TG@mfbpn-AA-V2ray-SG-NTT.01[海外直连]
+      - TG@mfbpn-AA-V2ray-TW-HiNet.01
+      - TG@mfbpn-AA-V2ray-TW-HiNet.02
+      - TG@mfbpn-AA-V2ray-TW-HiNet.03
+      - TG@mfbpn-AA-V2ray-TW-HiNet.04
+      - TG@mfbpn-AA-V2ray-TW-HiNet.05
+      - TG@mfbpn-AA-V2ray-UK-DigitalOcean
+      - TG@mfbpn-AA-V2ray-US-HE.01[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.02[海外直连]
+      - TG@mfbpn-AA-V2ray-US-HE.03
+      - TG@mfbpn-AA-V2ray-US-Philadelphia
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
