@@ -5,83 +5,599 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG@mfbpn-🇭🇰 1香港D, server: tg_mfbpn_g1.52vpn.eu.org, port: 30104, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇭🇰 2香港B, server: tg_mfbpn_g1.52vpn.eu.org, port: 10002, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇹🇼 台湾A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 10004, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇹🇼 台湾B 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 30105, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇸🇬 新加坡A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 10005, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇸🇬 新加坡B 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 30106, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇯🇵 日本A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 11005, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇯🇵 日本B 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 11006, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇺🇲 美国A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 30102, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇺🇲 美国B 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 11003, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇻🇳 越南A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 10007, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇰🇷 韩国A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 30107, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇭🇰 香港A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 11001, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇭🇰 香港C 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 30101, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@mfbpn-🇭🇰 香港E, server: tg_mfbpn_g1.52vpn.eu.org, port: 11003, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn-台湾01, server: tg_mfbpn_y1.52vpn.eu.org, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾02, server: tg_mfbpn_y1.52vpn.eu.org, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾03, server: tg_mfbpn_y1.52vpn.eu.org, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾04, server: tg_mfbpn_y1.52vpn.eu.org, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾05, server: tg_mfbpn_y1.52vpn.eu.org, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾06, server: tg_mfbpn_y1.52vpn.eu.org, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡01, server: tg_mfbpn_y3.52vpn.eu.org, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡02, server: tg_mfbpn_y3.52vpn.eu.org, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡03, server: tg_mfbpn_y3.52vpn.eu.org, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡04, server: tg_mfbpn_y3.52vpn.eu.org, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡05, server: tg_mfbpn_y3.52vpn.eu.org, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡06, server: tg_mfbpn_y3.52vpn.eu.org, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡07, server: tg_mfbpn_y3.52vpn.eu.org, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡08, server: tg_mfbpn_y3.52vpn.eu.org, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡09, server: tg_mfbpn_y3.52vpn.eu.org, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡10, server: tg_mfbpn_y3.52vpn.eu.org, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本01, server: tg_mfbpn_y1.52vpn.eu.org, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本02, server: tg_mfbpn_y1.52vpn.eu.org, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本03, server: tg_mfbpn_y1.52vpn.eu.org, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本04, server: tg_mfbpn_y1.52vpn.eu.org, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本05, server: tg_mfbpn_y1.52vpn.eu.org, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本06, server: tg_mfbpn_y1.52vpn.eu.org, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本07, server: tg_mfbpn_y1.52vpn.eu.org, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本08, server: tg_mfbpn_y1.52vpn.eu.org, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本09, server: tg_mfbpn_y1.52vpn.eu.org, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本10, server: tg_mfbpn_y1.52vpn.eu.org, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国01, server: tg_mfbpn_y1.52vpn.eu.org, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国02, server: tg_mfbpn_y1.52vpn.eu.org, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国03, server: tg_mfbpn_y1.52vpn.eu.org, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国04, server: tg_mfbpn_y1.52vpn.eu.org, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国05, server: tg_mfbpn_y1.52vpn.eu.org, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国06, server: tg_mfbpn_y1.52vpn.eu.org, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国07, server: tg_mfbpn_y1.52vpn.eu.org, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国08, server: tg_mfbpn_y1.52vpn.eu.org, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国09, server: tg_mfbpn_y1.52vpn.eu.org, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国10, server: tg_mfbpn_y1.52vpn.eu.org, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港01, server: tg_mfbpn_y2.52vpn.eu.org, port: 2400, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港02, server: tg_mfbpn_y2.52vpn.eu.org, port: 2401, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港03, server: tg_mfbpn_y2.52vpn.eu.org, port: 2402, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港04, server: tg_mfbpn_y2.52vpn.eu.org, port: 2403, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港05, server: tg_mfbpn_y2.52vpn.eu.org, port: 2404, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港06, server: tg_mfbpn_y3.52vpn.eu.org, port: 2405, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港07, server: tg_mfbpn_y3.52vpn.eu.org, port: 2406, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港08, server: tg_mfbpn_y3.52vpn.eu.org, port: 2407, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港09, server: tg_mfbpn_y3.52vpn.eu.org, port: 2408, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港10, server: tg_mfbpn_y3.52vpn.eu.org, port: 2409, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn, server: tg_mfbpn_z1.52vpn.eu.org, port: 18348, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 2, server: tg_mfbpn_z1.52vpn.eu.org, port: 19082, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 3, server: tg_mfbpn_z1.52vpn.eu.org, port: 19054, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 4, server: tg_mfbpn_z1.52vpn.eu.org, port: 19073, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 5, server: tg_mfbpn_z1.52vpn.eu.org, port: 10008, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 6, server: tg_mfbpn_z1.52vpn.eu.org, port: 19067, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 7, server: tg_mfbpn_z1.52vpn.eu.org, port: 19004, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 8, server: tg_mfbpn_z1.52vpn.eu.org, port: 19093, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 9, server: tg_mfbpn_z1.52vpn.eu.org, port: 18996, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 10, server: tg_mfbpn_z1.52vpn.eu.org, port: 19072, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 11, server: tg_mfbpn_z1.52vpn.eu.org, port: 19071, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 12, server: tg_mfbpn_z1.52vpn.eu.org, port: 19002, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 13, server: tg_mfbpn_z1.52vpn.eu.org, port: 19025, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 14, server: tg_mfbpn_z1.52vpn.eu.org, port: 19026, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 15, server: tg_mfbpn_z1.52vpn.eu.org, port: 19041, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 16, server: tg_mfbpn_z1.52vpn.eu.org, port: 19039, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 17, server: tg_mfbpn_z1.52vpn.eu.org, port: 19001, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 18, server: tg_mfbpn_z1.52vpn.eu.org, port: 19086, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 19, server: tg_mfbpn_z1.52vpn.eu.org, port: 19013, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 20, server: tg_mfbpn_z1.52vpn.eu.org, port: 10004, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 21, server: tg_mfbpn_z1.52vpn.eu.org, port: 19059, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 22, server: tg_mfbpn_z1.52vpn.eu.org, port: 19081, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 23, server: tg_mfbpn_z1.52vpn.eu.org, port: 19053, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 24, server: tg_mfbpn_z1.52vpn.eu.org, port: 18998, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 25, server: tg_mfbpn_z1.52vpn.eu.org, port: 10003, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 26, server: tg_mfbpn_z1.52vpn.eu.org, port: 19015, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 27, server: tg_mfbpn_z1.52vpn.eu.org, port: 19052, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 28, server: tg_mfbpn_z1.52vpn.eu.org, port: 19065, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 29, server: tg_mfbpn_z1.52vpn.eu.org, port: 10005, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 30, server: tg_mfbpn_z1.52vpn.eu.org, port: 19014, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 31, server: tg_mfbpn_z1.52vpn.eu.org, port: 19098, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 32, server: tg_mfbpn_z1.52vpn.eu.org, port: 19051, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 33, server: tg_mfbpn_z1.52vpn.eu.org, port: 19090, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 34, server: tg_mfbpn_z1.52vpn.eu.org, port: 19077, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 35, server: tg_mfbpn_z1.52vpn.eu.org, port: 19078, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 36, server: tg_mfbpn_z1.52vpn.eu.org, port: 19089, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 37, server: tg_mfbpn_z1.52vpn.eu.org, port: 19027, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 38, server: tg_mfbpn_z1.52vpn.eu.org, port: 19064, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 39, server: tg_mfbpn_z1.52vpn.eu.org, port: 19070, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 40, server: tg_mfbpn_z1.52vpn.eu.org, port: 19063, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 41, server: tg_mfbpn_z1.52vpn.eu.org, port: 19066, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 42, server: tg_mfbpn_z1.52vpn.eu.org, port: 19028, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 43, server: tg_mfbpn_z1.52vpn.eu.org, port: 19069, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 44, server: tg_mfbpn_z1.52vpn.eu.org, port: 19030, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 45, server: tg_mfbpn_z1.52vpn.eu.org, port: 19035, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 46, server: tg_mfbpn_z1.52vpn.eu.org, port: 19036, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 47, server: tg_mfbpn_z1.52vpn.eu.org, port: 10001, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 48, server: tg_mfbpn_z1.52vpn.eu.org, port: 18997, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 49, server: tg_mfbpn_z1.52vpn.eu.org, port: 19005, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 50, server: tg_mfbpn_z1.52vpn.eu.org, port: 19006, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 51, server: tg_mfbpn_z1.52vpn.eu.org, port: 19012, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 52, server: tg_mfbpn_z1.52vpn.eu.org, port: 19022, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 53, server: tg_mfbpn_z1.52vpn.eu.org, port: 19017, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 54, server: tg_mfbpn_z1.52vpn.eu.org, port: 19019, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 55, server: tg_mfbpn_z1.52vpn.eu.org, port: 19061, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 56, server: tg_mfbpn_z1.52vpn.eu.org, port: 19020, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 57, server: tg_mfbpn_z1.52vpn.eu.org, port: 19021, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 58, server: tg_mfbpn_z1.52vpn.eu.org, port: 19023, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 59, server: tg_mfbpn_z1.52vpn.eu.org, port: 19058, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 60, server: tg_mfbpn_z1.52vpn.eu.org, port: 19031, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 61, server: tg_mfbpn_z1.52vpn.eu.org, port: 19032, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 62, server: tg_mfbpn_z1.52vpn.eu.org, port: 19056, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 63, server: tg_mfbpn_z1.52vpn.eu.org, port: 19076, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 64, server: tg_mfbpn_z1.52vpn.eu.org, port: 19087, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 65, server: tg_mfbpn_z1.52vpn.eu.org, port: 19091, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 66, server: tg_mfbpn_z1.52vpn.eu.org, port: 19018, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 67, server: tg_mfbpn_z1.52vpn.eu.org, port: 19074, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 68, server: tg_mfbpn_z1.52vpn.eu.org, port: 19024, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 69, server: tg_mfbpn_z1.52vpn.eu.org, port: 19060, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 70, server: tg_mfbpn_z1.52vpn.eu.org, port: 19068, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 71, server: tg_mfbpn_z1.52vpn.eu.org, port: 18995, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 263938:JLbeXv, obfs-param: 19918263938.wns.windows.com, udp: true}
+  - {name: TG频道@mfbpn 72, server: tg_mfbpn_z1.52vpn.eu.org, port: 443, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn 73, server: tg_mfbpn_z1.52vpn.eu.org, port: 19049, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 74, server: tg_mfbpn_z1.52vpn.eu.org, port: 19097, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 75, server: tg_mfbpn_z1.52vpn.eu.org, port: 19043, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 76, server: tg_mfbpn_z1.52vpn.eu.org, port: 19083, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 77, server: tg_mfbpn_z1.52vpn.eu.org, port: 19085, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 78, server: tg_mfbpn_z1.52vpn.eu.org, port: 19092, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 79, server: tg_mfbpn_z1.52vpn.eu.org, port: 19094, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 80, server: tg_mfbpn_z1.52vpn.eu.org, port: 19040, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 81, server: tg_mfbpn_z1.52vpn.eu.org, port: 19084, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 82, server: tg_mfbpn_z1.52vpn.eu.org, port: 19050, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 83, server: tg_mfbpn_z1.52vpn.eu.org, port: 10006, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 84, server: tg_mfbpn_z1.52vpn.eu.org, port: 19055, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 85, server: tg_mfbpn_z1.52vpn.eu.org, port: 18999, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 86, server: tg_mfbpn_z1.52vpn.eu.org, port: 19080, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 87, server: tg_mfbpn_z1.52vpn.eu.org, port: 19057, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 88, server: tg_mfbpn_z1.52vpn.eu.org, port: 19079, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 89, server: tg_mfbpn_z1.52vpn.eu.org, port: 19046, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 90, server: tg_mfbpn_z1.52vpn.eu.org, port: 19047, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 91, server: tg_mfbpn_z1.52vpn.eu.org, port: 19048, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 92, server: tg_mfbpn_z1.52vpn.eu.org, port: 19038, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 93, server: tg_mfbpn_z1.52vpn.eu.org, port: 19045, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 94, server: tg_mfbpn_z1.52vpn.eu.org, port: 10007, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 95, server: tg_mfbpn_z1.52vpn.eu.org, port: 10002, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 96, server: tg_mfbpn_z1.52vpn.eu.org, port: 19042, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 97, server: tg_mfbpn_z1.52vpn.eu.org, port: 19029, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
+  - {name: TG频道@mfbpn 98, server: tg_mfbpn_z1.52vpn.eu.org, port: 19016, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tg_mfbpn_z1.52vpn.eu.org}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,94 +616,619 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,21 +1244,150 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@mfbpn-🇭🇰 1香港D
-      - TG@mfbpn-🇭🇰 2香港B
-      - TG@mfbpn-🇹🇼 台湾A 流媒体
-      - TG@mfbpn-🇹🇼 台湾B 流媒体
-      - TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - TG@mfbpn-🇸🇬 新加坡B 流媒体
-      - TG@mfbpn-🇯🇵 日本A 流媒体
-      - TG@mfbpn-🇯🇵 日本B 流媒体
-      - TG@mfbpn-🇺🇲 美国A 流媒体
-      - TG@mfbpn-🇺🇲 美国B 流媒体
-      - TG@mfbpn-🇻🇳 越南A 流媒体
-      - TG@mfbpn-🇰🇷 韩国A 流媒体
-      - TG@mfbpn-🇭🇰 香港A 流媒体
-      - TG@mfbpn-🇭🇰 香港C 流媒体
-      - TG@mfbpn-🇭🇰 香港E
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
+      - TG频道@mfbpn-香港10
+      - TG频道@mfbpn
+      - TG频道@mfbpn 2
+      - TG频道@mfbpn 3
+      - TG频道@mfbpn 4
+      - TG频道@mfbpn 5
+      - TG频道@mfbpn 6
+      - TG频道@mfbpn 7
+      - TG频道@mfbpn 8
+      - TG频道@mfbpn 9
+      - TG频道@mfbpn 10
+      - TG频道@mfbpn 11
+      - TG频道@mfbpn 12
+      - TG频道@mfbpn 13
+      - TG频道@mfbpn 14
+      - TG频道@mfbpn 15
+      - TG频道@mfbpn 16
+      - TG频道@mfbpn 17
+      - TG频道@mfbpn 18
+      - TG频道@mfbpn 19
+      - TG频道@mfbpn 20
+      - TG频道@mfbpn 21
+      - TG频道@mfbpn 22
+      - TG频道@mfbpn 23
+      - TG频道@mfbpn 24
+      - TG频道@mfbpn 25
+      - TG频道@mfbpn 26
+      - TG频道@mfbpn 27
+      - TG频道@mfbpn 28
+      - TG频道@mfbpn 29
+      - TG频道@mfbpn 30
+      - TG频道@mfbpn 31
+      - TG频道@mfbpn 32
+      - TG频道@mfbpn 33
+      - TG频道@mfbpn 34
+      - TG频道@mfbpn 35
+      - TG频道@mfbpn 36
+      - TG频道@mfbpn 37
+      - TG频道@mfbpn 38
+      - TG频道@mfbpn 39
+      - TG频道@mfbpn 40
+      - TG频道@mfbpn 41
+      - TG频道@mfbpn 42
+      - TG频道@mfbpn 43
+      - TG频道@mfbpn 44
+      - TG频道@mfbpn 45
+      - TG频道@mfbpn 46
+      - TG频道@mfbpn 47
+      - TG频道@mfbpn 48
+      - TG频道@mfbpn 49
+      - TG频道@mfbpn 50
+      - TG频道@mfbpn 51
+      - TG频道@mfbpn 52
+      - TG频道@mfbpn 53
+      - TG频道@mfbpn 54
+      - TG频道@mfbpn 55
+      - TG频道@mfbpn 56
+      - TG频道@mfbpn 57
+      - TG频道@mfbpn 58
+      - TG频道@mfbpn 59
+      - TG频道@mfbpn 60
+      - TG频道@mfbpn 61
+      - TG频道@mfbpn 62
+      - TG频道@mfbpn 63
+      - TG频道@mfbpn 64
+      - TG频道@mfbpn 65
+      - TG频道@mfbpn 66
+      - TG频道@mfbpn 67
+      - TG频道@mfbpn 68
+      - TG频道@mfbpn 69
+      - TG频道@mfbpn 70
+      - TG频道@mfbpn 71
+      - TG频道@mfbpn 72
+      - TG频道@mfbpn 73
+      - TG频道@mfbpn 74
+      - TG频道@mfbpn 75
+      - TG频道@mfbpn 76
+      - TG频道@mfbpn 77
+      - TG频道@mfbpn 78
+      - TG频道@mfbpn 79
+      - TG频道@mfbpn 80
+      - TG频道@mfbpn 81
+      - TG频道@mfbpn 82
+      - TG频道@mfbpn 83
+      - TG频道@mfbpn 84
+      - TG频道@mfbpn 85
+      - TG频道@mfbpn 86
+      - TG频道@mfbpn 87
+      - TG频道@mfbpn 88
+      - TG频道@mfbpn 89
+      - TG频道@mfbpn 90
+      - TG频道@mfbpn 91
+      - TG频道@mfbpn 92
+      - TG频道@mfbpn 93
+      - TG频道@mfbpn 94
+      - TG频道@mfbpn 95
+      - TG频道@mfbpn 96
+      - TG频道@mfbpn 97
+      - TG频道@mfbpn 98
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
