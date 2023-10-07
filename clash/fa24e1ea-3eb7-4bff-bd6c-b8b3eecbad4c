@@ -5,299 +5,299 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG@mfbpn-香港, server: n21.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 2, server: n23.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 3, server: n24.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 4, server: n28.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 5, server: n54.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 6, server: n32.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 7, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 8, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 9, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 10, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 11, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 12, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 13, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 14, server: n43.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 15, server: n57.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 16, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 17, server: n06.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 18, server: ntemp01.boom.skin, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 19, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 20, server: ntemp03.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 21, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 22, server: ntemp05.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 23, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 24, server: ntemp07.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 25, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 26, server: ntemp09.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本, server: n22.boom.skin, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 2, server: n116.boom.skin, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-狮城, server: n48.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-狮城 2, server: n47.boom.skin, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-狮城 3, server: n05.boom.skin, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国, server: us5.edge.boom.skin, port: 44001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 2, server: us6.edge.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 3, server: us7.edge.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 4, server: us8.edge.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 5, server: us9.edge.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 6, server: us10.edge.boom.skin, port: 49001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 7, server: us1.edge.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 8, server: us2.edge.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 9, server: us3.edge.boom.skin, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-美国 10, server: us4.edge.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 27, server: n37.boom.skin, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-俄罗斯, server: s102.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-俄罗斯 2, server: s103.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-俄罗斯 3, server: s104.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-俄罗斯 4, server: s105.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-台湾, server: n04.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-台湾 2, server: n119.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-台湾 3, server: s100.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-土耳其, server: s01.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡, server: n17.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 2, server: n96.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 3, server: n30.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 4, server: n11.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 5, server: n110.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-韩国, server: n13.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 28, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 29, server: n27.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 30, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 31, server: n92.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 32, server: n77.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 33, server: n60.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 34, server: ntemp25.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 35, server: n100.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 36, server: n114.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 37, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 38, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 39, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 40, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 41, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 42, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 43, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 3, server: nf1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 4, server: nf2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 5, server: nf3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 6, server: nf4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 7, server: nf5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 8, server: nf6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 9, server: nf7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 10, server: nf8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 11, server: nf9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 12, server: nf10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 13, server: nf11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-蒙古, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 44, server: nj1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 45, server: nj2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 46, server: nj3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 47, server: nj4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 48, server: nj5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 49, server: nj6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 50, server: nj7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 51, server: nj8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 52, server: nj9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 53, server: nja.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 54, server: njb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 55, server: njc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 56, server: njd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 57, server: nje.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 6, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 7, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 8, server: nka.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 9, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 10, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 11, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 12, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 13, server: nl1.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 14, server: nl2.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 15, server: nl3.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 16, server: nl4.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 17, server: nl5.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 18, server: nl6.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 19, server: nl7.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 20, server: nl8.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 21, server: nl9.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-新加坡 22, server: nla.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-马来西亚, server: s101.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 58, server: n61.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 59, server: n67.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 60, server: n74.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 61, server: nm1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 62, server: nm2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 63, server: nm3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 64, server: nm4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 65, server: nm5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 66, server: nm6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 67, server: nm7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 68, server: nm8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 69, server: nm9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 70, server: nma.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 71, server: nmb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 72, server: nmc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 73, server: nmd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 74, server: n93.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 75, server: n111.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 76, server: n115.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 77, server: n117.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 14, server: jp6.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 15, server: jp15.boom.skin, port: 39500, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 16, server: jp16.boom.skin, port: 39600, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 17, server: jp17.boom.skin, port: 39700, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 18, server: jp18.boom.skin, port: 39800, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 19, server: jp19.boom.skin, port: 39900, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 20, server: jp20.boom.skin, port: 38100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 21, server: jp7.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 22, server: jp8.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 23, server: jp9.boom.skin, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 24, server: jp10.boom.skin, port: 39000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 25, server: jp11.boom.skin, port: 39100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 26, server: jp12.boom.skin, port: 39200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 27, server: jp13.boom.skin, port: 39300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 28, server: jp14.boom.skin, port: 39400, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 29, server: nn1.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 30, server: nn2.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 31, server: nn3.boom.skin, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 32, server: nn4.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 33, server: nn5.boom.skin, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 34, server: nn6.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 35, server: nn7.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 36, server: jp1.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 37, server: jp2.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 38, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 39, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-日本 40, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 78, server: nn14.boom.skin, port: 53000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 79, server: nn12.boom.skin, port: 51000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 80, server: nn13.boom.skin, port: 52000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 81, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 82, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 83, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 84, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 85, server: opt6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 86, server: opt15.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 87, server: opt21.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 88, server: opt22.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 89, server: opt23.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 90, server: opt24.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 91, server: opt25.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 92, server: opt26.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 93, server: opt7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 94, server: opt8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 95, server: opt9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 96, server: opt10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 97, server: opt11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 98, server: opt12.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 99, server: opt13.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 100, server: opt14.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 101, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 102, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 103, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 104, server: opt3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 105, server: opt4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 106, server: opt5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 107, server: opt16.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 108, server: opt17.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 109, server: opt18.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: TG@mfbpn-香港 110, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 662215:B2ivGJ, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG频道@mfbpn-台湾01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-台湾06, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡01, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡02, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡03, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡04, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡05, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡06, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡07, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡08, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡09, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-新加坡10, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本06, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本07, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本08, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本09, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-日本10, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国06, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国07, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国08, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国09, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-美国10, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2400, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2401, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2402, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2403, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2404, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港06, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2405, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港07, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2406, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港08, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2407, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG频道@mfbpn-香港09, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2408, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 74321:TxFSi7, obfs-param: fd6f274321.microsoft.com, udp: true}
+  - {name: TG@mfbpn-香港, server: n21.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 2, server: n23.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 3, server: n24.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 4, server: n28.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 5, server: n54.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 6, server: n32.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 7, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 8, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 9, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 10, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 11, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 12, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 13, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 14, server: n43.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 15, server: n57.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 16, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 17, server: n06.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 18, server: ntemp01.boom.skin, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 19, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 20, server: ntemp03.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 21, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 22, server: ntemp05.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 23, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 24, server: ntemp07.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 25, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 26, server: ntemp09.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本, server: n22.boom.skin, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 2, server: n116.boom.skin, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-狮城, server: n48.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-狮城 2, server: n47.boom.skin, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-狮城 3, server: n05.boom.skin, port: 30001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国, server: us5.edge.boom.skin, port: 44001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 2, server: us6.edge.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 3, server: us7.edge.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 4, server: us8.edge.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 5, server: us9.edge.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 6, server: us10.edge.boom.skin, port: 49001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 7, server: us1.edge.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 8, server: us2.edge.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 9, server: us3.edge.boom.skin, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-美国 10, server: us4.edge.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 27, server: n37.boom.skin, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-俄罗斯, server: s102.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-俄罗斯 2, server: s103.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-俄罗斯 3, server: s104.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-俄罗斯 4, server: s105.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-台湾, server: n04.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-台湾 2, server: n119.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-台湾 3, server: s100.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-土耳其, server: s01.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡, server: n17.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 2, server: n96.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 3, server: n30.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 4, server: n11.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 5, server: n110.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-韩国, server: n13.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 28, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 29, server: n27.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 30, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 31, server: n92.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 32, server: n77.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 33, server: n60.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 34, server: ntemp25.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 35, server: n100.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 36, server: n114.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 37, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 38, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 39, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 40, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 41, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 42, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 43, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 3, server: nf1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 4, server: nf2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 5, server: nf3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 6, server: nf4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 7, server: nf5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 8, server: nf6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 9, server: nf7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 10, server: nf8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 11, server: nf9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 12, server: nf10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 13, server: nf11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-蒙古, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 44, server: nj1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 45, server: nj2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 46, server: nj3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 47, server: nj4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 48, server: nj5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 49, server: nj6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 50, server: nj7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 51, server: nj8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 52, server: nj9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 53, server: nja.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 54, server: njb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 55, server: njc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 56, server: njd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 57, server: nje.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 6, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 7, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 8, server: nka.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 9, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 10, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 11, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 12, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 13, server: nl1.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 14, server: nl2.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 15, server: nl3.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 16, server: nl4.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 17, server: nl5.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 18, server: nl6.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 19, server: nl7.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 20, server: nl8.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 21, server: nl9.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-新加坡 22, server: nla.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-马来西亚, server: s101.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 58, server: n61.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 59, server: n67.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 60, server: n74.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 61, server: nm1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 62, server: nm2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 63, server: nm3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 64, server: nm4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 65, server: nm5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 66, server: nm6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 67, server: nm7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 68, server: nm8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 69, server: nm9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 70, server: nma.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 71, server: nmb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 72, server: nmc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 73, server: nmd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 74, server: n93.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 75, server: n111.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 76, server: n115.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 77, server: n117.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 14, server: jp6.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 15, server: jp15.boom.skin, port: 39500, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 16, server: jp16.boom.skin, port: 39600, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 17, server: jp17.boom.skin, port: 39700, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 18, server: jp18.boom.skin, port: 39800, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 19, server: jp19.boom.skin, port: 39900, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 20, server: jp20.boom.skin, port: 38100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 21, server: jp7.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 22, server: jp8.boom.skin, port: 37000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 23, server: jp9.boom.skin, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 24, server: jp10.boom.skin, port: 39000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 25, server: jp11.boom.skin, port: 39100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 26, server: jp12.boom.skin, port: 39200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 27, server: jp13.boom.skin, port: 39300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 28, server: jp14.boom.skin, port: 39400, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 29, server: nn1.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 30, server: nn2.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 31, server: nn3.boom.skin, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 32, server: nn4.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 33, server: nn5.boom.skin, port: 44000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 34, server: nn6.boom.skin, port: 45000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 35, server: nn7.boom.skin, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 36, server: jp1.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 37, server: jp2.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 38, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 39, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-日本 40, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 78, server: nn14.boom.skin, port: 53000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 79, server: nn12.boom.skin, port: 51000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 80, server: nn13.boom.skin, port: 52000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 81, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 82, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 83, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 84, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 85, server: opt6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 86, server: opt15.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 87, server: opt21.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 88, server: opt22.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 89, server: opt23.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 90, server: opt24.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 91, server: opt25.boom.skin, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 92, server: opt26.boom.skin, port: 36000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 93, server: opt7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 94, server: opt8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 95, server: opt9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 96, server: opt10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 97, server: opt11.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 98, server: opt12.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 99, server: opt13.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 100, server: opt14.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 101, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 102, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 103, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 104, server: opt3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 105, server: opt4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 106, server: opt5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 107, server: opt16.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 108, server: opt17.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 109, server: opt18.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: TG@mfbpn-香港 110, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 770317:DBVdZd, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 网址：t.me/mfbpn, server: www.google.com, port: 1, type: ssr, cipher: aes-256-cfb, password: breakwall, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: TG频道@mfbpn-台湾01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾06, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡01, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡02, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡03, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡04, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡05, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡06, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡07, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡08, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡09, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡10, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本06, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本07, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本08, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本09, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本10, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国06, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国07, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国08, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国09, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国10, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港01, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2400, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港02, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2401, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港03, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2402, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港04, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2403, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港05, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2404, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港06, server: zx02.endhigh.xyz, port: 2405, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港07, server: zx02.endhigh.xyz, port: 2406, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港08, server: zx02.endhigh.xyz, port: 2407, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港09, server: zx02.endhigh.xyz, port: 2408, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾01 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾02 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾03 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾04 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾05 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-台湾06 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡01 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡02 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡03 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡04 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡05 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡06 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡07 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡08 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡09 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-新加坡10 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本01 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本02 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本03 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本04 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本05 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本06 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本07 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本08 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本09 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-日本10 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国01 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国02 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国03 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国04 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国05 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国06 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国07 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国08 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国09 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-美国10 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港01 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2400, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港02 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2401, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港03 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2402, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港04 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2403, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港05 2, server: tg_mfbpn_yy1.52vpn.eu.org, port: 2404, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港06 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2405, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港07 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2406, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港08 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2407, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
-  - {name: TG频道@mfbpn-香港09 2, server: tg_mfbpn_yy3.52vpn.eu.org, port: 2408, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 51610:Lc2h2v, obfs-param: fd6f251610.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -495,101 +495,56 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -787,102 +742,57 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -1080,96 +990,6 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1188,6 +1008,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -1385,42 +1250,16 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
       - TG频道@mfbpn-台湾01
       - TG频道@mfbpn-台湾02
       - TG频道@mfbpn-台湾03
       - TG频道@mfbpn-台湾04
       - TG频道@mfbpn-台湾05
       - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -1430,55 +1269,6 @@ proxy-groups:
       - TG频道@mfbpn-香港07
       - TG频道@mfbpn-香港08
       - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -1592,42 +1382,57 @@ proxy-groups:
       - TG@mfbpn-香港 108
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -1825,101 +1630,56 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -2117,102 +1877,57 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -2410,96 +2125,6 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2515,6 +2140,51 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG频道@mfbpn-台湾01
+      - TG频道@mfbpn-台湾02
+      - TG频道@mfbpn-台湾03
+      - TG频道@mfbpn-台湾04
+      - TG频道@mfbpn-台湾05
+      - TG频道@mfbpn-台湾06
+      - TG频道@mfbpn-新加坡01
+      - TG频道@mfbpn-新加坡02
+      - TG频道@mfbpn-新加坡03
+      - TG频道@mfbpn-新加坡04
+      - TG频道@mfbpn-新加坡05
+      - TG频道@mfbpn-新加坡06
+      - TG频道@mfbpn-新加坡07
+      - TG频道@mfbpn-新加坡08
+      - TG频道@mfbpn-新加坡09
+      - TG频道@mfbpn-新加坡10
+      - TG频道@mfbpn-日本01
+      - TG频道@mfbpn-日本02
+      - TG频道@mfbpn-日本03
+      - TG频道@mfbpn-日本04
+      - TG频道@mfbpn-日本05
+      - TG频道@mfbpn-日本06
+      - TG频道@mfbpn-日本07
+      - TG频道@mfbpn-日本08
+      - TG频道@mfbpn-日本09
+      - TG频道@mfbpn-日本10
+      - TG频道@mfbpn-美国01
+      - TG频道@mfbpn-美国02
+      - TG频道@mfbpn-美国03
+      - TG频道@mfbpn-美国04
+      - TG频道@mfbpn-美国05
+      - TG频道@mfbpn-美国06
+      - TG频道@mfbpn-美国07
+      - TG频道@mfbpn-美国08
+      - TG频道@mfbpn-美国09
+      - TG频道@mfbpn-美国10
+      - TG频道@mfbpn-香港01
+      - TG频道@mfbpn-香港02
+      - TG频道@mfbpn-香港03
+      - TG频道@mfbpn-香港04
+      - TG频道@mfbpn-香港05
+      - TG频道@mfbpn-香港06
+      - TG频道@mfbpn-香港07
+      - TG频道@mfbpn-香港08
+      - TG频道@mfbpn-香港09
       - TG@mfbpn-香港
       - TG@mfbpn-香港 2
       - TG@mfbpn-香港 3
@@ -2712,96 +2382,6 @@ proxy-groups:
       - TG@mfbpn-香港 109
       - TG@mfbpn-香港 110
       - 网址：t.me/mfbpn
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-台湾02
-      - TG频道@mfbpn-台湾03
-      - TG频道@mfbpn-台湾04
-      - TG频道@mfbpn-台湾05
-      - TG频道@mfbpn-台湾06
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-新加坡09
-      - TG频道@mfbpn-新加坡10
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-日本09
-      - TG频道@mfbpn-日本10
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-美国09
-      - TG频道@mfbpn-美国10
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09
-      - TG频道@mfbpn-台湾01 2
-      - TG频道@mfbpn-台湾02 2
-      - TG频道@mfbpn-台湾03 2
-      - TG频道@mfbpn-台湾04 2
-      - TG频道@mfbpn-台湾05 2
-      - TG频道@mfbpn-台湾06 2
-      - TG频道@mfbpn-新加坡01 2
-      - TG频道@mfbpn-新加坡02 2
-      - TG频道@mfbpn-新加坡03 2
-      - TG频道@mfbpn-新加坡04 2
-      - TG频道@mfbpn-新加坡05 2
-      - TG频道@mfbpn-新加坡06 2
-      - TG频道@mfbpn-新加坡07 2
-      - TG频道@mfbpn-新加坡08 2
-      - TG频道@mfbpn-新加坡09 2
-      - TG频道@mfbpn-新加坡10 2
-      - TG频道@mfbpn-日本01 2
-      - TG频道@mfbpn-日本02 2
-      - TG频道@mfbpn-日本03 2
-      - TG频道@mfbpn-日本04 2
-      - TG频道@mfbpn-日本05 2
-      - TG频道@mfbpn-日本06 2
-      - TG频道@mfbpn-日本07 2
-      - TG频道@mfbpn-日本08 2
-      - TG频道@mfbpn-日本09 2
-      - TG频道@mfbpn-日本10 2
-      - TG频道@mfbpn-美国01 2
-      - TG频道@mfbpn-美国02 2
-      - TG频道@mfbpn-美国03 2
-      - TG频道@mfbpn-美国04 2
-      - TG频道@mfbpn-美国05 2
-      - TG频道@mfbpn-美国06 2
-      - TG频道@mfbpn-美国07 2
-      - TG频道@mfbpn-美国08 2
-      - TG频道@mfbpn-美国09 2
-      - TG频道@mfbpn-美国10 2
-      - TG频道@mfbpn-香港01 2
-      - TG频道@mfbpn-香港02 2
-      - TG频道@mfbpn-香港03 2
-      - TG频道@mfbpn-香港04 2
-      - TG频道@mfbpn-香港05 2
-      - TG频道@mfbpn-香港06 2
-      - TG频道@mfbpn-香港07 2
-      - TG频道@mfbpn-香港08 2
-      - TG频道@mfbpn-香港09 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
